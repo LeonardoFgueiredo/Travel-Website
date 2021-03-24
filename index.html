@@ -11,6 +11,7 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/icon.png">
+    <script type="text/javascript" src="script.js"></script>
     <title>Leonardo | Viagens</title>
 </head>
 
@@ -157,6 +158,19 @@
     <script>
         //icons
         feather.replace();
+        // Back to top button
+        (function () {
+            $(document).ready(function () {
+                return $(window).scroll(function () {
+                    return $(window).scrollTop() > 200 ? $("#back-to-top").addClass("show") : $("#back-to-top").removeClass("show")
+                }), $("#back-to-top").click(function () {
+                    return $("html,body").animate({
+                        scrollTop: "0"
+                    })
+                })
+            })
+        }).call(this);
+
 
         //scroll
         $(document).ready(function () {
@@ -183,39 +197,6 @@
                 } // End if
             });
         });
-
-        //map
-        // Initialize and add the map
-        function initMap() {
-            // The location of Uluru
-            const uluru = { lat: -22.9510, lng: -43.2065 };
-            // The map, centered at Uluru
-            const map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 4,
-                center: uluru,
-            });
-            // The marker, positioned at Uluru
-            const marker = new google.maps.Marker({
-                position: uluru,
-                map: map,
-            });
-        }
-
-        //back to top
-        
-// Back to top button
-(function() {
-  $(document).ready(function() {
-    return $(window).scroll(function() {
-      return $(window).scrollTop() > 200 ? $("#back-to-top").addClass("show") : $("#back-to-top").removeClass("show")
-    }), $("#back-to-top").click(function() {
-      return $("html,body").animate({
-        scrollTop: "0"
-      })
-    })
-  })
-}).call(this);
-       
     </script>
 </body>
 
