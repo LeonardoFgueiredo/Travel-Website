@@ -6,7 +6,7 @@
 
 Ainda estou no começo desta jornada de desenvolvimento e espero continuar evoluindo a cada dia. 
 
-#### 🔗 [Link do projeto]([https://leonardofgueiredo.github.io/Travel-Website/ )
+<a class="link" href="https://leonardofgueiredo.github.io/Travel-Website/" target="blank">🔗 Link do projeto </a>
 
 - Html5 - Construct the page components;
 - Css3 - Stylize and animate components;
