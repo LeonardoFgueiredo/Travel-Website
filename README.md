@@ -1,7 +1,12 @@
 
-## **Travel Website**
 
-#### I made this Travel Website to train my Front end skills and study new technologies . I used HTML5, CSS3 and JavaScript. This project are responsive with different web dispositives.
+## **Site Viagens**
+
+#### Construi este site para treinar minhas habilidades no Front end e também para aprender novos conteúdos. Eu usei HTML5, CSS3 e JavaScript. O projeto é responsivo e se molda em diferentes dispositivos. 
+
+Ainda estou no começo desta jornada de desenvolvimento e espero continuar evoluindo a cada dia. 
+
+#### 🔗 [Link do projeto]([https://leonardofgueiredo.github.io/Travel-Website/ )
 
 - Html5 - Construct the page components;
 - Css3 - Stylize and animate components;
